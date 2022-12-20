@@ -1,16 +1,16 @@
 <template>
-<div></div>
+<card-form></card-form>
 </template>
 
 <script>
 import { ref } from 'vue'
-//import HelloWorld from './components/HelloWorld.vue'
+import CardForm from './components/CardForm.vue'
 
 export default {
   name: 'LayoutDefault',
 
   components: {
-    //HelloWorld
+    CardForm
   },
 
   setup () {
