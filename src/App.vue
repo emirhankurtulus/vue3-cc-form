@@ -1,16 +1,16 @@
 <template>
-<card-form></card-form>
+<credit-card-input></credit-card-input>
 </template>
 
 <script>
 import { ref } from 'vue'
-import CardForm from './components/CardForm.vue'
+import CreditCardInput from './components/CreditCardInput'
 
 export default {
   name: 'LayoutDefault',
 
   components: {
-    CardForm
+    CreditCardInput
   },
 
   setup () {
