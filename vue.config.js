@@ -1,13 +1,12 @@
-const { defineConfig } = require('@vue/cli-service')
+const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
-  transpileDependencies: [
-    'quasar'
-  ],
+  transpileDependencies: ["quasar"],
+  publicPath: "/vue3-cc-form",
 
   pluginOptions: {
     quasar: {
-      importStrategy: 'kebab',
-      rtlSupport: false
-    }
-  }
-})
+      importStrategy: "kebab",
+      rtlSupport: false,
+    },
+  },
+});
