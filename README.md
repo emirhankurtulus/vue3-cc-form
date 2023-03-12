@@ -5,6 +5,11 @@
 npm install
 ```
 
+## cc-validate Package
+```
+npm i cc-validate
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
