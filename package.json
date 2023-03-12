@@ -7,7 +7,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "gitHub": "gh-pages - d dist"
+    "deploy": "gh-pages -b main -d build"
   },
   "dependencies": {
     "@quasar/extras": "^1.15.11",
